@@ -1,0 +1,26 @@
+FitTrack voor iPhone — mobiele versie van je oorspronkelijke FitTrack-project
+
+BESTANDEN UPLOADEN
+1. Pak deze ZIP uit.
+2. Open https://github.com/jaimyvandezweerde-dev/Fittrack-app
+3. Klik Add file → Upload files.
+4. Upload de INHOUD van deze map rechtstreeks in de hoofdmap (root), dus niet de map zelf.
+5. Commit changes. Overschrijf index.html en sw.js als GitHub daarom vraagt.
+6. Ga naar Settings → Pages. Source: Deploy from a branch; Branch: main; map: /(root); Save.
+7. Wacht tot de GitHub Pages deployment klaar is. Website: https://jaimyvandezweerde-dev.github.io/Fittrack-app/
+
+OP JE IPHONE
+1. Open de website in Safari.
+2. Tik op Deel (vierkant met pijl omhoog).
+3. Kies Zet op beginscherm → Voeg toe.
+
+WAT ZIT ERIN
+- Eerste-start wizard in 5 stappen: naam, leeftijd/geslacht/lengte/gewicht, activiteit/sportdagen, doel en berekend plan.
+- Doelberekening gebaseerd op de BerekeningService uit het aangeleverde C#-project (Mifflin-St Jeor, activiteitsfactoren, doelcorrecties en macroverdeling).
+- Vandaag: maaltijden toevoegen/verwijderen, dagselectie, calorieën en macrovoortgang.
+- Gewicht: registraties, grafiek en geschiedenis.
+- Mijn plan: BMI, doeluitleg, vergelijking van doelen, profiel aanpassen.
+- Lokale opslag in de browser en JSON back-up export/import.
+
+BELANGRIJK
+WPF/XAML-schermen kunnen niet rechtstreeks op iOS draaien. Dit is een herbouw van de bestaande functies als mobiele webapp; de vormgeving is daarom niet pixel-voor-pixel identiek aan de Windows-app. Gegevens worden lokaal in deze browser opgeslagen. Maak af en toe een back-up, vooral vóór browserdata wissen of bij wisselen van apparaat.
